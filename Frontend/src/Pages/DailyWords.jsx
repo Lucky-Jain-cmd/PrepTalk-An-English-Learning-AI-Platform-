@@ -14,17 +14,87 @@ export default function DailyWords() {
       emoji: "🌅",
       color: "from-orange-400 to-red-500",
       words: [
-        { word: "Wake up", hindi: "जागना", pronunciation: "weyk uhp", example: "I wake up at 6 AM every day.", difficulty: "easy" },
-        { word: "Brush", hindi: "ब्रश करना", pronunciation: "bruhsh", example: "Don't forget to brush your teeth.", difficulty: "easy" },
-        { word: "Breakfast", hindi: "नाश्ता", pronunciation: "brek-fuhst", example: "What did you have for breakfast?", difficulty: "easy" },
-        { word: "Shower", hindi: "नहाना", pronunciation: "shou-er", example: "I take a shower every morning.", difficulty: "easy" },
-        { word: "Dress", hindi: "कपड़े पहनना", pronunciation: "dres", example: "She dressed quickly for work.", difficulty: "easy" },
-        { word: "Commute", hindi: "यात्रा करना", pronunciation: "kuh-myoot", example: "My commute to office takes 30 minutes.", difficulty: "medium" },
-        { word: "Lunch", hindi: "दोपहर का खाना", pronunciation: "luhnch", example: "Let's have lunch together.", difficulty: "easy" },
-        { word: "Dinner", hindi: "रात का खाना", pronunciation: "din-er", example: "Dinner is ready!", difficulty: "easy" },
-        { word: "Relax", hindi: "आराम करना", pronunciation: "ri-laks", example: "I like to relax after work.", difficulty: "easy" },
-        { word: "Sleep", hindi: "सोना", pronunciation: "sleep", example: "I need 8 hours of sleep.", difficulty: "easy" },
-      ]
+  { 
+    word: "Revitalize", 
+    hindi: "पुनर्जीवित करना", 
+    pronunciation: "ree-vai-tuh-lahyz", 
+    example: "A short walk helped me revitalize my energy.", 
+    synonyms: ["refresh", "renew", "reenergize"]
+  },
+
+  { 
+    word: "Scrutinize", 
+    hindi: "गहराई से जांचना", 
+    pronunciation: "skroo-tuh-nahyz", 
+    example: "The professor scrutinized every detail of the research paper.", 
+    synonyms: ["examine", "inspect", "analyze"]
+  },
+
+  { 
+    word: "Consolidate", 
+    hindi: "मजबूत करना / एकीकृत करना", 
+    pronunciation: "kuhn-sol-uh-deyt", 
+    example: "The company plans to consolidate its operations next year.", 
+    synonyms: ["combine", "strengthen", "merge"]
+  },
+
+  { 
+    word: "Rejuvenate", 
+    hindi: "ताज़ा करना / पुनर्जीवित करना", 
+    pronunciation: "ri-joo-vuh-neyt", 
+    example: "A good vacation can rejuvenate your mind and body.", 
+    synonyms: ["revive", "refresh", "renew"]
+  },
+
+  { 
+    word: "Assimilate", 
+    hindi: "समझना / आत्मसात करना", 
+    pronunciation: "uh-sim-uh-leyt", 
+    example: "It takes time to assimilate into a new culture.", 
+    synonyms: ["absorb", "adapt", "integrate"]
+  },
+
+  { 
+    word: "Commence", 
+    hindi: "प्रारंभ करना", 
+    pronunciation: "kuh-mens", 
+    example: "The ceremony will commence at 10 AM sharp.", 
+    synonyms: ["begin", "start", "initiate"]
+  },
+
+  { 
+    word: "Facilitate", 
+    hindi: "सुविधा प्रदान करना / आसान बनाना", 
+    pronunciation: "fuh-sil-i-teyt", 
+    example: "Technology can facilitate faster communication.", 
+    synonyms: ["assist", "enable", "simplify"]
+  },
+
+  { 
+    word: "Culminate", 
+    hindi: "अंतिम रूप लेना", 
+    pronunciation: "kuhl-muh-neyt", 
+    example: "Years of training will culminate in the final competition.", 
+    synonyms: ["conclude", "finish", "peak"]
+  },
+
+  { 
+    word: "Contemplate", 
+    hindi: "गंभीरता से सोचना", 
+    pronunciation: "kon-tuhm-pleyt", 
+    example: "She sat quietly to contemplate her future goals.", 
+    synonyms: ["consider", "reflect", "ponder"]
+  },
+
+  { 
+    word: "Persevere", 
+    hindi: "दृढ़ता से लगे रहना", 
+    pronunciation: "pur-suh-veer", 
+    example: "You must persevere even when things get tough.", 
+    synonyms: ["persist", "endure", "continue"]
+  }
+]
+
     },
     {
       category: "Emotions & Feelings",

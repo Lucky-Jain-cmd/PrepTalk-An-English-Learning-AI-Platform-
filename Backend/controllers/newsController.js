@@ -6,7 +6,7 @@ export const getNews = async (req, res) => {
   try {
     const category = req.query.category?.toLowerCase() || "general";
 
-    const url = https://newsapi.org/v2/top-headlines?category=${category}&language=en&pageSize=5&apiKey=${API_KEY};
+    const url = https;//newsapi.org/v2/top-headlines?category=${category}&language=en&pageSize=5&apiKey=${API_KEY};
 
     const response = await fetch(url);
     const data = await response.json();

@@ -7,6 +7,8 @@ import cors from "cors";
 import helmet from "helmet";
 import rateLimit from "express-rate-limit";
 import morgan from "morgan";
+import userRoutes from "./routes/userRoutes.js";
+
 
 import authRoutes from "./routes/authRoutes.js";
 import errorHandler from "./middleware/errorHandler.js";
@@ -19,6 +21,7 @@ const app = express();
 connectDB();
 
 // Middlewares
+app.use("/users", userRoutes);
 app.use(express.json());
 app.use(cors({ origin: "http://localhost:5173" })); // Your frontend URL
 app.use(helmet());
